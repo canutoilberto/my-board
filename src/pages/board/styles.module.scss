@@ -1,0 +1,42 @@
+.container {
+  max-width: 1120px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #17181f;
+  border-radius: 6px;
+
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      width: 90%;
+      height: 50px;
+      background-color: #20212c;
+      border: 1px solid #424242;
+      border-radius: 6px;
+      padding: 3px 10px; 
+      color: #fff;
+    }
+
+    button {
+      margin-left: 10px;
+      width: 8%;
+      height: 50px;
+      border: none;
+      border-radius: 6px;
+      background-color: #ffb800;
+    }
+  }
+
+  h1 {
+    color: #fff;
+    margin-top: 1.8rem;
+  }
+
+  .taskList {
+    background-color: #20212c;
+    margin-top: 1.8rem;
+  }
+}
